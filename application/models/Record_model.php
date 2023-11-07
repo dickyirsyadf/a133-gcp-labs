@@ -8,7 +8,7 @@ class Record_model extends CI_Model {
     public function __construct() {
         $this->client = new Client([
             // TODO: Tambahkan Base URL API
-            'base_uri' => "34.126.106.46",
+            'base_uri' => "34.101.162.251",
         ]);
     }
 
